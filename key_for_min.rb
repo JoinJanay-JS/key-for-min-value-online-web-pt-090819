@@ -8,6 +8,7 @@ hash.each do |key, value|
   if hash_value == nil || value < hash_value
     hash_value = value
     hash_key = key
-end
-hash_key
+    end
+  end
+  hash_key
 end
